@@ -63,6 +63,26 @@ function createGround(scene, size, numLines) {
         {mass: 0, restitution: 0.9},
         scene);
 
+    const margin = size / numLines;
+    let xpos = size / -2;
+    const lineMaterial = new BABYLON.StandardMaterial("lineMaterial", scene);
+    lineMaterial.diffuseColor = new BABYLON.Color3(0, 0, 0);
 
-    return ground;
+    let lines = [];
+
+    for(let i = 0; i <= numLines ; i++){
+        const linePlane = BABYLON.MeshBuilder.CreatePlane(
+            "linePlane",
+            {width: .15, height: size},
+            scene);
+        linePlane.position = new BABYLON.Vector3(xpos, .1, 0);
+        linePlane.rotate(BABYLON.Axis.X, Math.PI/2, BABYLON.Space.WORLD);
+        linePlane.material = lineMaterial;
+        lines.push(linePlane);
+        xpos += margin;
+    }
+
+    const groundObj = {ground, lines};
+
+    return groundObj;
 }

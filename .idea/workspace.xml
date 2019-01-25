@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="873677f0-54ce-4862-8a42-189affcd89e3" name="Default Changelist" comment="" />
+    <list default="true" id="873677f0-54ce-4862-8a42-189affcd89e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gridPlane.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gridPlane.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,6 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="9" />
           <entry key="stylesheet" value="1" />
@@ -37,27 +41,28 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="162" />
           <entry key="html" value="484" />
-          <entry key="js" value="5947" />
+          <entry key="js" value="6672" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="162" />
           <entry key="HTML" value="484" />
-          <entry key="JavaScript" value="5947" />
+          <entry key="JavaScript" value="6672" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -69,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/renderScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+            <state relative-caret-position="374">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -78,17 +83,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/needle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="340">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/gridPlane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="405">
+              <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -120,9 +125,10 @@
         <option value="$PROJECT_DIR$/visuals.js" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/gridPlane.js" />
         <option value="$PROJECT_DIR$/scripts/needle.js" />
         <option value="$PROJECT_DIR$/scripts/renderScene.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scripts/gridPlane.js" />
       </list>
     </option>
   </component>
@@ -139,8 +145,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="50" />
+    <option name="x" value="450" />
+    <option name="y" value="68" />
     <option name="width" value="1426" />
     <option name="height" value="987" />
   </component>
@@ -225,12 +231,12 @@
       <workItem from="1547930611468" duration="6836000" />
       <workItem from="1548028308284" duration="12491000" />
       <workItem from="1548268630204" duration="15000" />
-      <workItem from="1548430256450" duration="379000" />
+      <workItem from="1548430256450" duration="6109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42234000" />
+    <option name="totallyTimeSpent" value="47964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,7 +248,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="50" width="1426" height="987" extended-state="0" />
+    <frame x="450" y="68" width="1426" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941385" visible="true" weight="0.23414986" />
       <window_info id="Structure" order="1" sideWeight="0.50058615" side_tool="true" weight="0.30660376" />
@@ -283,10 +290,17 @@
     <entry file="https://preview.babylonjs.com/babylon.js">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gridPlane.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="109" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
         </state>
       </provider>
     </entry>
@@ -297,24 +311,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/needle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/renderScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scripts/needle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="109" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
+        <state relative-caret-position="340">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gridPlane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
         </state>
       </provider>
     </entry>
